@@ -1,0 +1,6 @@
+@import './base/variable';
+@import 'general';
+@import 'index';
+body{
+    background-color: red($color: #000000);
+}

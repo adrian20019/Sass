@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.header{
+    background-color: map-get($colores , "color-principal" );
+    
+    &__nav__lista{
+        list-style: none;
+    }
+
+    &__lista__item{
+        color: white;
+
+        a{
+            text-decoration: dotted;
+            
+            &:hover{
+                color: blue;
+            }
+        }
+    }
+}
