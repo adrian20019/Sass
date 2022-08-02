@@ -1,69 +1,74 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+	<!--bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--header fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="./style.css">
+    <title>Ddeveloper</title>
+	<!--RECONTRA TUKIIII (seria un cambio en el head)--> 
 </head>
-<body>
-    <header class="header">
-        <nav class="header__nav">
-            <ul class="header__nav__lista">
-                <li class="header__nav__lista__item">  
-                   <a>Home</a> 
-                </li>
-                <li class="header__nav__lista__item"> 
-                    <a>contacto</a>
-                </li>
-                <li class="header__nav__lista__item">
-                    <a>ubicacion</a>
-                </li>
-            </ul>
-        </nav>
-        <nav class="nav-mobile">
-            <label for="toggle">
-                <div class="hamburguesa">
-                    <span></span> 
-                    <span></span>
-                    <span></span>
-                </div>
-            </label>
-            <input type="checkbox" class="input" id="toggle">
+<body >
+    <header class="cabecera1">
+			<!-- cabecera del sitio -->
+			
+			<nav class="cabecera">
+					 <a href="./index.html"> <img src="./imagenes/logo.PNG" alt="DD logo personal"></a>
+					 <h1> Mi portafo<span>lio</span></h1>
+				<ul class="cabecera__ul">
+					<li class="cabecera__ul__li"> <a href="./sobre-mi.html">Sobre mi</a></li>
+					<li class="cabecera__ul__li"> <a href="./trabajos.html">Trabajos</a></li>
+					<li class="cabecera__ul__li"> <a href="./ubicacion.html">Ubicacion</a></li>
+					<li class="cabecera__ul__li"> <a href="./contacto.html">Contactame</a></li>
+				</ul>
+			</nav>
+			
+		</header>
+<main>
+	
+	<!--PRIMERA RAMAA-->
+	
 
-            <ul class="menuDesplegable">
-                <li>
-                    Home
-                </li>
-                <li>
-                    contacto
-                </li>
-                <li>
-                    ubicacion
-                </li>
-            </ul>
-        </nav>
-    </header>
+	
+	<section class="sectionImg">
+		<!-- foto carrusel-->
+		
+		<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img src="./imagenes/coding-man.jpg" class="d-block w-100" alt="coding">
+			  </div>
+			  <div class="carousel-item">
+				<img src="./imagenes/developer.png" class="d-block w-100" alt="developer">
+			  </div>
+			</div>
+		  </div>
+	</section>
+</main>
 
-    <form action="">
-        <input type="text" name="" id="textInput">
-    </form>
+		<footer >
+				<div class="footerDiv">	
+							<a href="https://www.instagram.com/adrianderrr/"><img src="./imagenes/Instagram_Rounded_Solid_icon-icons.com_61560.png" alt="Mi sitio de instagram" class="footerDiv__socials"></a>
 
-    <section>
-        <p class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima quae sit asperiores ullam veniam voluptates aliquid sequi ut, beatae neque?</p>
-        <p>Lorem ipsum dolor sit amet consectetur nam necessitatibus nesciunt temporibus magni ab rerum distinctio quibusdam sequi odit co 
-        </p>
-    </section>
+							<a href="https://www.linkedin.com/in/adrian-n-268b87236/"><img src="./imagenes/LinkedIn_Rounded_Solid_icon-icons.com_61559.png" alt="Mi sitio de linkedin" class="footerDiv__socials"></a>
 
-    <p class="imprimir"> Gracias por imprimir esto</p>
+							<a href="https://web.telegram.org/z/"> <img src="./imagenes/telegram_icon_194153.png" alt="Mi red social telegram" class="footerDiv__socials--telegram"></a>
+				</div>	
+		</footer>
 
-    <footer>
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-        </ul>
-    </footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 </body>
 </html>

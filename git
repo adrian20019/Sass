@@ -1,0 +1,42 @@
+[33mcommit 04ad87992967522d4d2a6a7a0f26b0e85b3b7e11[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Merge: 37e4bee ec5458a
+Author: Adrian De Rosa <adrianderosa7@gmail.com>
+Date:   Fri Jul 8 20:53:52 2022 -0300
+
+    Merge branch 'primeraRama'
+
+[33mcommit 37e4bee1b881742e7d431f4b1163ae6a7761a127[m[33m ([m[1;32mtuki[m[33m)[m
+Author: Adrian De Rosa <adrianderosa7@gmail.com>
+Date:   Fri Jul 8 20:53:30 2022 -0300
+
+    tuko
+
+[33mcommit 1485c8f36a7b938c3420d75b2383aace463c2c5e[m[33m ([m[1;31morigin/tuki[m[33m)[m
+Author: Adrian De Rosa <adrianderosa7@gmail.com>
+Date:   Fri Jul 8 20:38:13 2022 -0300
+
+    agregandoTuki
+
+[33mcommit ec5458a0110d1fb8c844a705322b69c677818928[m[33m ([m[1;32mprimeraRama[m[33m)[m
+Author: Adrian De Rosa <adrianderosa7@gmail.com>
+Date:   Fri Jul 8 20:36:53 2022 -0300
+
+    agreguePrimeraRama
+
+[33mcommit bc8108bb976b7a42deaff91c3f795e6d0af8ab27[m
+Author: Adrian De Rosa <adrianderosa7@gmail.com>
+Date:   Fri Jul 8 20:30:00 2022 -0300
+
+    primeraRama
+
+[33mcommit ea6b55159be11fc9375480f38a1e3bc0f8cef47c[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Adrian De Rosa <adrianderosa7@gmail.com>
+Date:   Thu Jul 7 13:58:03 2022 -0300
+
+    segundo
+
+[33mcommit 6ce219515f460472c6b1b9af8fa31072329536dd[m[33m ([m[1;32mdevelop[m[33m)[m
+Author: Adrian De Rosa <adrianderosa7@gmail.com>
+Date:   Tue Jul 5 21:28:36 2022 -0300
+
+    primer comit2
